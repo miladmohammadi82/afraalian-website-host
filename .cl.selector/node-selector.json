@@ -1,0 +1,12 @@
+{
+    "afraalian": {
+        "app_mode": "development",
+        "app_status": "started",
+        "app_uri": "",
+        "config_files": [],
+        "domain": "afraalian.com",
+        "env_vars": {},
+        "nodejs_version": "10",
+        "startup_file": "app.js"
+    }
+}

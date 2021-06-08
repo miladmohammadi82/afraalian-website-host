@@ -1,0 +1,39 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/opt/alt/alt-nodejs10/root/usr/bin/node',
+1 verbose cli   '/opt/alt/alt-nodejs10/root/usr/bin/npm',
+1 verbose cli   'run-script',
+1 verbose cli   'watch',
+1 verbose cli   '--' ]
+2 info using npm@6.14.12
+3 info using node@v10.24.1
+4 verbose run-script [ 'prewatch', 'watch', 'postwatch' ]
+5 info lifecycle @~prewatch: @
+6 info lifecycle @~watch: @
+7 warn lifecycle The node binary used for scripts is /home/afraalia/nodevenv/afraalian/10/bin/node but npm is using /opt/alt/alt-nodejs10/root/usr/bin/node itself. Use the `--scripts-prepend-node-path` option to include the path for the node binary npm was executed with.
+8 verbose lifecycle @~watch: unsafe-perm in lifecycle true
+9 verbose lifecycle @~watch: PATH: /opt/alt/alt-nodejs10/root/usr/lib/node_modules/npm/node_modules.bundled/npm-lifecycle/node-gyp-bin:/home/afraalia/afraalian/node_modules/.bin:/home/afraalia/nodevenv/afraalian/10/bin:/opt/alt/alt-nodejs10/root/usr/bin:/home/afraalia/nodevenv/afraalian/10/lib/bin/:/usr/local/jdk/bin:/usr/kerberos/sbin:/usr/kerberos/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/usr/X11R6/bin:/usr/local/bin:/usr/X11R6/bin:/root/bin:/opt/bin
+10 verbose lifecycle @~watch: CWD: /home/afraalia/afraalian
+11 silly lifecycle @~watch: Args: [ '-c', 'mix watch' ]
+12 silly lifecycle @~watch: Returned: code: 1  signal: null
+13 info lifecycle @~watch: Failed to exec watch script
+14 verbose stack Error: @ watch: `mix watch`
+14 verbose stack Exit status 1
+14 verbose stack     at EventEmitter.<anonymous> (/opt/alt/alt-nodejs10/root/usr/lib/node_modules/npm/node_modules.bundled/npm-lifecycle/index.js:332:16)
+14 verbose stack     at EventEmitter.emit (events.js:198:13)
+14 verbose stack     at ChildProcess.<anonymous> (/opt/alt/alt-nodejs10/root/usr/lib/node_modules/npm/node_modules.bundled/npm-lifecycle/lib/spawn.js:55:14)
+14 verbose stack     at ChildProcess.emit (events.js:198:13)
+14 verbose stack     at maybeClose (internal/child_process.js:982:16)
+14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:259:5)
+15 verbose pkgid @
+16 verbose cwd /home/afraalia/afraalian
+17 verbose Linux 3.10.0-962.3.2.lve1.5.49.el7.x86_64
+18 verbose argv "/opt/alt/alt-nodejs10/root/usr/bin/node" "/opt/alt/alt-nodejs10/root/usr/bin/npm" "run-script" "watch" "--"
+19 verbose node v10.24.1
+20 verbose npm  v6.14.12
+21 error code ELIFECYCLE
+22 error errno 1
+23 error @ watch: `mix watch`
+23 error Exit status 1
+24 error Failed at the @ watch script.
+24 error This is probably not a problem with npm. There is likely additional logging output above.
+25 verbose exit [ 1, true ]
