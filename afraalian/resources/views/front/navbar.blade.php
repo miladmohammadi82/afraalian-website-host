@@ -28,7 +28,7 @@
 
                     <ul class="main-menu">
 
-                        <li class="nav-link"><a href="/" class="a-nav-link active">خانه</a></li>
+                        <li class="nav-link"><a href="/" class="a-nav-link active">خونه</a></li>
 
                         @foreach ($categories as $category)
                             <li class="nav-link"><a href="#" class="a-nav-link">{{ $category->title }}<i
